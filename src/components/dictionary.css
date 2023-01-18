@@ -1,0 +1,60 @@
+.dictionary-div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: black;
+}
+
+.form {
+    border: 2px solid gray;
+    padding: 0 1rem;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    position: relative;
+}
+.cancel {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.input {
+    padding: 1rem 0.5rem;
+    all: unset;
+    font-size: 1rem;
+}
+.h1 {
+    text-align: center;
+}
+
+.app {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 420px;
+    transition: all 2s;
+    transition-timing-function: cubic-bezier(0.4, 0.1, 0.45, 0.83);
+}
+
+.sub-meanings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result {
+    padding-left: .6rem;
+    border-left: 3px solid darkcyan;
+    margin: 1rem 0;
+}
+
+.def {
+    color: gray;
+    opacity: .8;
+}
